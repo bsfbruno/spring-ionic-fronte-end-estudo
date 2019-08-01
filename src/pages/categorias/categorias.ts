@@ -1,6 +1,6 @@
 import { CategoriaDTO } from './../../../../cursoSpringIonicEstudo/src/models/categoria.dto';
-import { API_CONFIG } from './../../../../cursoSpringIonicEstudo/src/config/api.config';
-import { CategoriaService } from './../../domain/categoria.service';
+import { API_CONFIG } from '../../config/api.config';
+import { CategoriaService } from '../../services/domain/categoria.service';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 

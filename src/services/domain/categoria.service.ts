@@ -1,5 +1,5 @@
-import { API_CONFIG } from './../../../cursoSpringIonicEstudo/src/config/api.config';
-import { CategoriaDTO } from './../../../cursoSpringIonicEstudo/src/models/categoria.dto';
+import { API_CONFIG } from '../../config/api.config';
+import { CategoriaDTO } from '../../models/categoria.dto';
 import { Observable } from 'rxjs/Rx';
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from "@angular/core";
