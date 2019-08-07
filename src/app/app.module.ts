@@ -1,3 +1,4 @@
+import { ClienteService } from './../services/domain/cliente.service';
 import { StorageService } from './../services/storage.service';
 import { AuthService } from '../services/auth.service';
 import { HttpClientModule } from '@angular/common/http';
@@ -32,7 +33,8 @@ import { ErrorInterceptorProvider } from '../interceptors/error-interceptor';
     CategoriaService,
     ErrorInterceptorProvider,
     AuthService,
-    StorageService
+    StorageService,
+    ClienteService
   ]
 })
 export class AppModule {}
